@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+body {
+  margin: 0px 10px;
+}
+header {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #6D1010;
+  padding: 10px;
+  margin: 4px auto 30px auto;
+}
+header h1 {
+  padding: 10px;
+  margin: 10px;
+}
+nav {
+  min-width: 250px;
+  max-width: 800px;
+  background-color: #D5D5D59C;
+  text-align: center;  
+  vertical-align: middle;
+  justify-content: center;
+  line-height: 2em;
+  padding: 4px;
+  margin: 4px auto 15px auto;
+  border-radius: 6px;
+  box-shadow: 0px 0.5px 3px black;
+  }
+nav a {
+  max-width: 1000px;
+  padding: 2px;
+  margin: 4px;
+  text-decoration: none;
+  color: black;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.sair {
+  color: darkred;
+}
+main {
+  background-color: #D5D5D59C;
+  min-width: 250px;
+  max-width: 1700px; /* 870 */
+  padding: 4px;
+  padding-bottom: 20px;
+  margin: 4px auto;
+  border-radius: 6px;
+  box-shadow: 0px 0.5px 3px black;
+}
+main > h2 {  
+  border-radius: 6px;
+  padding: 20px 15px 15px 15px;
+  margin: -10px -10px 0px -10px;
+  text-align: center;
+}
+.camerasmain { 
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+  padding: 2px 6px 4px 4px;
+  margin: 10px 0px;
+}
+.cam1 img {
+  margin: 4px;
+  border-radius: 8px;
+  min-width: 250px;
+  max-width: 100%;
+}
+.cam2 img {
+  margin: 4px;
+  border-radius: 8px;
+  min-width: 200px;
+  max-width: 100%;
+  
+}
+.cam3 img {
+  margin: 4px;
+  border-radius: 8px;
+  min-width: 200px;
+  max-width: 100%;
+}
+.cam4 img {
+  margin: 4px;
+  border-radius: 8px;
+  min-width: 250px;
+  max-width: 100%;
+}
+iframe {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 100%;
+  height: 100%;
+}
+section {
+  max-width: 1700px;
+  padding: 4px;
+  margin: auto;
+  text-align: center;
+}
+section > h2 {
+  padding: 10px;
+  margin: 10px;
+}
+#obs {
+  border-radius: 6px;
+  padding: 8px;
+  margin: 0px auto 20px;
+  width: 90%;
+  display: block;
+}
+section > a {
+  margin: 10px 15px;
+  border-radius: 8px;  
+  background-color: #962c2ce0;
+  width: 68px;
+  height: 18px;
+  color: white;
+  padding: 12px 16px; 
+  text-align: center;
+  text-decoration: none;
+}
+section > a:hover {
+  background-color: #a34f4fea;
+}
+section > a:visited {
+  text-decoration: none;
+}
+footer {
+  bottom: 0;
+  margin-left: -10px;
+  margin-right: -10px;
+}
