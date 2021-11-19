@@ -8,7 +8,20 @@ body {
   font-family: Arial, Helvetica, sans-serif;  
   background-color: #F0F2F5;
 }
-
+main {
+  background-color: #D5D5D59C;
+  min-width: 250px;
+  max-width: 1700px; /* 870 */
+  padding: 4px;
+  padding-bottom: 20px;
+  margin: 4px auto;
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 6px;
+  border-left: 0px; border-right: 0px; border-bottom: 0px;
+  border-color: #962c2ce0;
+  box-shadow: 0px 0.5px 3px black;
+}
 footer {
   margin-top: 60px;
   text-align: center;

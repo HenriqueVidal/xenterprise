@@ -39,16 +39,6 @@ nav a:hover {
 .sair {
   color: darkred;
 }
-main {
-  background-color: #D5D5D59C;
-  min-width: 250px;
-  max-width: 1700px; /* 870 */
-  padding: 4px;
-  padding-bottom: 20px;
-  margin: 4px auto;
-  border-radius: 6px;
-  box-shadow: 0px 0.5px 3px black;
-}
 main > h2 {  
   border-radius: 6px;
   padding: 20px 15px 15px 15px;
