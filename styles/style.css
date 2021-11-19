@@ -8,6 +8,42 @@ body {
   font-family: Arial, Helvetica, sans-serif;  
   background-color: #F0F2F5;
 }
+header {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #6D1010;
+  padding: 10px;
+  margin: 4px auto 30px auto;
+}
+header h1 {
+  padding: 10px;
+  margin: 10px;
+}
+nav {
+  min-width: 250px;
+  max-width: 800px;
+  background-color: #D5D5D59C;
+  text-align: center;  
+  vertical-align: middle;
+  justify-content: center;
+  line-height: 2em;
+  padding: 4px;
+  margin: 4px auto 15px auto;
+  border-radius: 6px;
+  box-shadow: 0px 0.5px 3px black;
+  }
+nav a {
+  max-width: 1000px;
+  padding: 2px;
+  margin: 4px;
+  text-decoration: none;
+  color: black;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.sair {
+  color: darkred;
+}
 main {
   background-color: #D5D5D59C;
   min-width: 250px;
