@@ -71,6 +71,9 @@ p > a { */
   cursor: pointer;
   background-color: #a34f4fea;
 }
+article > a{
+  text-decoration: none;
+}
 aside {
   font-size: 0.8em;
   text-align: center;
