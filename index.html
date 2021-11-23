@@ -19,11 +19,12 @@
    <h1>X-Enterprise</h1> <hr>
    <h2>Para continuar, efetue o login.</h2>
    <article>
-     <p>Usuário:</p>
-     <textarea name="Username" id=user rows="1" cols="40"></textarea>
-     <p>Senha:</p>
-     <textarea name="Password" id=pass rows="1" cols="40"></textarea>
-     <p class="entrar"><a href="cams.html" rel="next">Entrar</a></p>
+     <label for="username">Usuário:</label>
+     <input id="user" >
+     <label for="pass">Senha:</label>
+     <input id="pass" type="password" autocomplete="current-password" required>     
+     <input class="entrar" type="submit" value="Entrar">
+     <!-- <p class="entrar"><a href="cams.html" rel="next">Entrar</a></p> -->
      
      <aside class="links">
        <a href="#">Recuperar senha</a>
