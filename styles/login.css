@@ -9,7 +9,6 @@ header {
   padding-bottom: 10px;
 }
 main {
-  min-height: 500px;
   max-width: 400px;
   padding: 20px;
   margin: auto;
@@ -70,9 +69,6 @@ p > a { */
 .entrar:hover {
   cursor: pointer;
   background-color: #a34f4fea;
-}
-.entrar:active {
-  margin-top: 23px;
 }
 aside {
   font-size: 0.8em;
