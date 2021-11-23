@@ -52,7 +52,8 @@ input[type='submit'] {
 /*.entrar {  */
   display: flex;
   justify-content: center;
-  font-weight: bold;
+  font-size: 1em;
+  font-weight: 600;
   margin: 20px auto 30px auto;
   /*} 
 p > a { */
@@ -61,7 +62,7 @@ p > a { */
   background-color: #962c2ce0;
   text-align: center;
   color: white;
-  padding: 12px;
+  padding: 12px 18px;
 }
 .entrar:visited {
   color: white;
