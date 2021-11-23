@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/style.css" type="text/css" media="all" />
     <link rel="stylesheet" href="styles/login.css" type="text/css" media="all" />
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <script src="js/login.js"></script>
 </head>
 
 <body>
@@ -19,12 +20,13 @@
    <h1>X-Enterprise</h1> <hr>
    <h2>Para continuar, efetue o login.</h2>
    <article>
-     <label for="username">Usuário:</label>
-     <input id="user" >
-     <label for="pass">Senha:</label>
-     <input id="pass" type="password" autocomplete="current-password" required> 
-     <a href="cams.html" rel="next">    
-      <input class="entrar" type="submit" value="Entrar"></a>
+     <form>
+       <label for="username">Usuário:</label>
+       <input id="user" type="text">
+       <label for="pass">Senha:</label>
+       <input id="pass" type="password" autocomplete="current-password" required>
+       <input class="entrar" type="button" value="Entrar" onclick="login(this.form)">
+     </form>
      <!-- <p class="entrar"><a href="cams.html" rel="next">Entrar</a></p> -->
      
      <aside class="links">
